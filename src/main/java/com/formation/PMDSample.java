@@ -13,4 +13,13 @@ public class PMDSample {
 	public static void CallHello() {
 		System.out.println("Hello PMD World!");
 	}
+	
+	public static void CODE_MORT() {
+		if (true) {
+			System.out.println("Vrai");
+		}
+		else {
+			System.out.println("Faux, impossible!");
+		}
+	}
 }
